@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layRoot"
+    tools:context=".IUBGroup">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idbottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/item_toback"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_margin="20dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/layNonet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <include
+            layout="@layout/no_internet"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/idlogoR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="IUB"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/idcreateacount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idlogoR"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/identerFullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/idcreateacount"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Enter Full Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/identerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/identerFullname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Enter Email Address"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/idphonenum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/identerEmail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Enter PhoneNumber"
+        android:inputType="phone"/>
+
+
+    <EditText
+        android:id="@+id/idEnterPassoword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/idphonenum"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/idRegister1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idEnterPassoword"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idAlreadyregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idRegister1"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Already Register?Login Here" />
+
+    <ProgressBar
+        android:id="@+id/idProgessBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

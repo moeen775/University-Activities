@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schools.ScgoolDestails">
+
+    <TextView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bottom_shade"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text="Schools List"
+
+        android:textSize="30sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_transparent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="School of Business and Entrepreneurship"
+
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_transparent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="School of Engineering, Technology and Sciences "
+
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_transparent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="School of Environment and Life Sciences"
+
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_transparent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="School of Liberal Arts and Social Sciences"
+
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle_transparent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="School of Pharmacy and Public Health"
+
+        android:textSize="30sp"
+
+        />
+
+
+
+
+</RelativeLayout>

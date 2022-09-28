@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Club">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+
+        >
+    <LinearLayout
+        android:id="@+id/show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/club1"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="@color/teal_700"
+            android:text="ACP Student Capter" />
+
+        <Button
+            android:id="@+id/club2"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            android:text="IEEE" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/show1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show2"
+            android:layout_margin="15dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/idenvironment"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="Enverment CLUB" />
+
+            <Button
+                android:id="@+id/idhrm"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="HMR Socity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/idfootBallballClub"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="IUB Footbal Club" />
+
+            <Button
+                android:id="@+id/idDance"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="Dance Club" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/show3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show4"
+            android:layout_margin="15dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/idEsports"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="IUB Espots Club" />
+
+            <Button
+                android:id="@+id/idToastMaster"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="ToastMaster" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
